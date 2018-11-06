@@ -37,6 +37,8 @@ body{
 #sidebar .sidebar-wrapper .content > ul{
     display: flex;
     flex-direction: column;
+    padding: 0;
+    text-align: center;
 }
 #sidebar .sidebar-wrapper .content > ul > li{
     list-style-type: none;
@@ -46,6 +48,11 @@ body{
     color: #ffffff;
     flex-grow: 1;
     /* text-align: center; */
+}
+#sidebar .sidebar-wrapper .content > ul > li:hover{
+    background-color: #f7f7f7f7;
+    color: gray;
+    padding: 0;
 }
 
 #sidebar .sidebar-wrapper .content .flex-btn{
